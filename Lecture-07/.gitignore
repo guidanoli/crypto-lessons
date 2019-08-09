@@ -1,0 +1,20 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension
+### Below all the extensions to be ignored
+### Source: https://stackoverflow.com/a/25592735/5696107
+
+# C objects
+.o
+
+# Makefile
+!*Makefile
+!*makefile
+!*GNUmakefile
